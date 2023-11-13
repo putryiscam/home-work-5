@@ -1,0 +1,89 @@
+@import "./linkfile.scss";
+.nav{
+    width: 80%;
+    height: 10%;
+    
+    margin: $margin;
+    display: flex;
+
+    .left-nav{
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+        height: 100%;
+        
+        display: flex;
+    }
+    .svg-7{
+        width: 260px;
+        height: 25px;
+  
+    }
+    .anlaz{
+        width: 220px;
+        height: 25px;
+    }
+    .center-nav{
+        position: relative;
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+        width: 40%;
+        height: 100%;
+        
+        list-style: none;
+    }
+    .right-nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 30%;
+        height: 100%;
+        
+        margin: $margin;
+    }
+    .ltext{
+        position: relative;
+        left: 40px;
+        width: 83px;
+        height: 13px;
+    }
+    .ctext{
+        position: relative;
+        left: 30px;
+        width: 160px;
+    height: 13px;
+
+    }
+    .rtext{
+        position: relative;
+        left: 40px;
+        width: 136px;
+height: 13px;
+
+    }
+    .fa-solid{
+        color: rgb(36, 245, 25);
+        position: relative;
+        left: 40px;
+    }
+    .rrtext{
+        position:relative ;
+        
+    }
+    .ovaltext{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 257px;
+        height: 42px;
+       border-radius: 30px;
+       background: linear-gradient(91.46deg, #11AE88 5.69%, #2A84EE 169.72%);
+
+
+    }
+    .cc{
+        color: white;
+    }
+}   

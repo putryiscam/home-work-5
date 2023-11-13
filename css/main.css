@@ -1,0 +1,158 @@
+.center {
+  display: flex;
+  width: 80%;
+  height: 90%;
+  margin: 0 auto;
+}
+
+.left-c {
+  width: 50%;
+  height: 100%;
+}
+
+.right-c {
+  width: 50%;
+  height: 100%;
+}
+
+.c-text {
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 75px;
+}
+
+.logo {
+  position: relative;
+  left: 390px;
+  bottom: 90px;
+}
+
+.pp-text {
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 33px;
+  position: relative;
+  bottom: 100px;
+}
+
+.Frame {
+  width: 750px;
+  height: 234px;
+}
+
+.pho {
+  width: 754px;
+  height: 686px;
+  opacity: 0.15px;
+}
+
+.snim {
+  margin: 0 auto;
+  width: 1530px;
+  position: relative;
+  left: 190px;
+}
+
+.nav {
+  width: 80%;
+  height: 10%;
+  margin: 0 auto;
+  display: flex;
+}
+.nav .left-nav {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 100%;
+  display: flex;
+}
+.nav .svg-7 {
+  width: 260px;
+  height: 25px;
+}
+.nav .anlaz {
+  width: 220px;
+  height: 25px;
+}
+.nav .center-nav {
+  position: relative;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  width: 40%;
+  height: 100%;
+  list-style: none;
+}
+.nav .right-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 30%;
+  height: 100%;
+  margin: 0 auto;
+}
+.nav .ltext {
+  position: relative;
+  left: 40px;
+  width: 83px;
+  height: 13px;
+}
+.nav .ctext {
+  position: relative;
+  left: 30px;
+  width: 160px;
+  height: 13px;
+}
+.nav .rtext {
+  position: relative;
+  left: 40px;
+  width: 136px;
+  height: 13px;
+}
+.nav .fa-solid {
+  color: rgb(36, 245, 25);
+  position: relative;
+  left: 40px;
+}
+.nav .rrtext {
+  position: relative;
+}
+.nav .ovaltext {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 257px;
+  height: 42px;
+  border-radius: 30px;
+  background: linear-gradient(91.46deg, #11AE88 5.69%, #2A84EE 169.72%);
+}
+.nav .cc {
+  color: white;
+}
+
+.main {
+  width: 1900px;
+  height: 900px;
+}
+
+@media screen and (max-width: 400px) {
+  .main {
+    display: 100%;
+    width: 400px;
+  }
+  .nav {
+    width: 300px;
+  }
+  .left-nav {
+    width: 100%;
+  }
+  .center-nav {
+    display: none;
+  }
+  .right-nav {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

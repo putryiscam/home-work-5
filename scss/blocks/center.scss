@@ -1,0 +1,50 @@
+@import "./linkfile.scss";
+.center{
+    display: flex;
+    width: 80%;
+    height: 90%;
+    
+    margin: 0 auto;
+}
+.left-c{
+    width: 50%;
+    height: 100%;
+    
+}
+.right-c{
+    width: 50%;
+    height: 100%;
+    
+}
+.c-text{
+    
+font-size: 50px;
+font-weight: 400;
+line-height: 75px;
+
+
+}
+.logo{
+    position: relative;
+    left: 390px;
+    bottom: 90px;
+}
+.pp-text{
+    
+font-size: 26px;
+font-weight: 400;
+line-height: 33px;
+position: relative;
+bottom: 100px;
+
+}
+.Frame{
+    width: 750px;
+height: 234px;
+}
+.pho{
+    width: 754px;
+height: 686px;
+opacity: 0.15px;
+
+}

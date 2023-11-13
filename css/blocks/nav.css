@@ -1,0 +1,79 @@
+.nav {
+  width: 80%;
+  height: 10%;
+  margin: 0 auto;
+  display: flex;
+}
+.nav .left-nav {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 100%;
+  display: flex;
+}
+.nav .svg-7 {
+  width: 260px;
+  height: 25px;
+}
+.nav .anlaz {
+  width: 220px;
+  height: 25px;
+}
+.nav .center-nav {
+  position: relative;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  width: 40%;
+  height: 100%;
+  list-style: none;
+}
+.nav .right-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 30%;
+  height: 100%;
+  margin: 0 auto;
+}
+.nav .ltext {
+  position: relative;
+  left: 40px;
+  width: 83px;
+  height: 13px;
+}
+.nav .ctext {
+  position: relative;
+  left: 30px;
+  width: 160px;
+  height: 13px;
+}
+.nav .rtext {
+  position: relative;
+  left: 40px;
+  width: 136px;
+  height: 13px;
+}
+.nav .fa-solid {
+  color: rgb(36, 245, 25);
+  position: relative;
+  left: 40px;
+}
+.nav .rrtext {
+  position: relative;
+}
+.nav .ovaltext {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 257px;
+  height: 42px;
+  border-radius: 30px;
+  background: linear-gradient(91.46deg, #11AE88 5.69%, #2A84EE 169.72%);
+}
+.nav .cc {
+  color: white;
+}
+
+/*# sourceMappingURL=nav.css.map */
